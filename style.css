@@ -5,8 +5,9 @@
 }
 
 body {
-    background-color: #A0E9FF;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("marble.jpg");
+    background-size: cover;
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
     width: 60vh;
     background-color: #B799FF;
     border-radius: 0.85rem;
-    /* border: 1px solid black; */
+    padding-bottom: 1rem;
 }
 
 .container h1 {
@@ -54,6 +55,7 @@ body {
 
 #btn:hover {
     background-color: #65B741;
+    cursor: pointer;
 }
 
 .taskList {
