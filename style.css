@@ -23,8 +23,11 @@ body {
     padding-top: 1rem;
 }
 
-.container h3 {
+#con-h3 {
     margin-top: 1rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .task {
