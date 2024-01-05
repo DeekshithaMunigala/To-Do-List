@@ -1,6 +1,7 @@
 const input = document.querySelector("#inputText");
 const btn = document.querySelector("#btn");
 const listul = document.querySelector("#list");
+const containerH3 = document.querySelector("#con-h3");
 
 btn.addEventListener('click', () => {
     let inputText = input.value;
@@ -22,6 +23,8 @@ btn.addEventListener('click', () => {
         removeBtn.style.padding = "0.3rem";
         removeBtn.style.border = "none";
         removeBtn.style.borderRadius = "0.3rem"
+
+        containerH3.style.display = "flex";
 
         li.appendChild(checkbox);
         li.appendChild(span);
