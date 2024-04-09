@@ -4,7 +4,7 @@ This is a simple To-Do List application built using HTML, CSS, and JavaScript. I
 
 ## Demo
 
-- You can try the app here()
+You can try out the app live [here](https://to-do-list-pink-alpha.vercel.app/)
 
 ## Features
 
