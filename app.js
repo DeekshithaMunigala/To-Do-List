@@ -20,15 +20,13 @@ btn.addEventListener('click', () => {
         const removeBtn = document.createElement('button');
         removeBtn.classList.add('remove-btn')
         removeBtn.textContent = 'Remove';
-        removeBtn.style.padding = "0.3rem";
-        removeBtn.style.border = "none";
-        removeBtn.style.borderRadius = "0.3rem"
 
         containerH3.style.display = "flex";
 
         li.appendChild(checkbox);
         li.appendChild(span);
         li.appendChild(removeBtn);
+        
         listul.appendChild(li);
 
         input.value ="";
